@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "material-ui-snippets.addCompletionImports": true,
+    "material-ui-snippets.importPaths": "top level"
+}
