@@ -8,26 +8,28 @@ export default function Menu() {
     <div className="main-menu">
       <AppBar position="fixed" color="primary">
         <Toolbar>
-          <Typography variant="h6">Sirube</Typography>
+          <Typography variant="h5" color="textPrimary">
+            Sirube
+          </Typography>
           <div style={{ width: "100%" }}>
-            <Box display="flex" justifyContent="flex-end" alignItems="flex-end">
+            <Box display="flex" justifyContent="flex-end">
               <Box p={1}>
                 <Link style={{ textDecoration: "none" }} to="/">
-                  <Typography variant="h6" color="secondary">
+                  <Typography variant="h5" color="textPrimary">
                     Home
                   </Typography>
                 </Link>
               </Box>
               <Box p={1}>
                 <Link style={{ textDecoration: "none" }} to="/about">
-                  <Typography variant="h6" color="secondary">
+                  <Typography variant="h5" color="textPrimary">
                     About
                   </Typography>
                 </Link>
               </Box>
               <Box p={1}>
                 <Link style={{ textDecoration: "none" }} to="/contact_us">
-                  <Typography variant="h6" color="secondary">
+                  <Typography variant="h5" color="textPrimary">
                     Contact Us
                   </Typography>
                 </Link>
