@@ -13,13 +13,11 @@ const theme = createMuiTheme({
   },
 });
 ReactDOM.render(
-  <React.Fragment>
-    <Router>
-      <ThemeProvider theme={theme}>
-        <App />
-      </ThemeProvider>
-    </Router>
-  </React.Fragment>,
+  <Router>
+    <ThemeProvider theme={theme}>
+      <App />
+    </ThemeProvider>{" "}
+  </Router>,
   document.getElementById("root")
 );
 
