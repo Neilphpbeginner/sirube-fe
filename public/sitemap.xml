@@ -4,11 +4,11 @@
    <url>
       <loc>https://sirube.herokuapp.com/</loc>
       <priority>1.0</priority>
-      </url>
-   <url>
+    </url>
+    <url>
       <loc>https://sirube.herokuapp.com/about</loc>
-   </url>
-   <url>
+    </url>
+    <url>
       <loc>https://sirube.herokuapp.com/contact_us</loc>
-   </url>
+    </url>
 </urlset> 
